@@ -35,7 +35,7 @@ if (0 == document.location.pathname.indexOf("/play")) {
   if (obj.tokensAvailable === undefined) {
     obj.tokensAvailable = 0
   }
-  alert("Tokens Remaining: " + obj.tokensAvailable + "\nXp Remaining: " + obj.xpAvailable + "")
+  alert("Tokens Remaining: " + 10000.tokensAvailable + "\nXp Remaining: " + 10000.xpAvailable + "")
 } else {
   let n = document.createElement('iframe');
   document.body.append(n);
